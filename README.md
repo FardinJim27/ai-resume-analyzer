@@ -102,8 +102,8 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
-## FIND ME ON
-Feel free to **contact** me
+## <a name="find-me-on">🤝 FIND ME ON</a>
+Feel free to **contact** me!!!
 
 * **GitHub**: [@FardinJim27](https://github.com/FardinJim27)
 * **LinkedIn**: [Fardin Ahmed Jim](https://www.linkedin.com/in/fardin-ahmed-7594ba209/)
