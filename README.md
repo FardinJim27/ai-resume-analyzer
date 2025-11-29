@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://github.com/FardinJim27" target="_blank">
-      <img src="public/readme/hero.webp" alt="Project Banner">
+      <img src="public/readme/banner.png" alt="Project Banner">
     </a>
   <br />
 
