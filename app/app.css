@@ -24,7 +24,7 @@ body {
 }
 
 main {
-  @apply min-h-screen pt-10;
+  @apply min-h-screen pt-10 pb-32;
 }
 h1 {
   @apply text-6xl  text-gradient leading-tight tracking-[-2px] font-semibold;
@@ -149,4 +149,40 @@ form {
   to {
     opacity: 1;
   }
+}
+
+/* Footer Styles */
+.footer {
+  @apply bg-gradient-to-b from-[#8e98ff] to-[#606beb] text-white py-8 mt-16 fixed bottom-0 left-0 right-0 z-50;
+}
+
+.footer-container {
+  @apply container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 items-center;
+}
+
+.footer-copywright {
+  @apply text-center;
+}
+
+.footer-copywright h3 {
+  @apply text-base md:text-lg font-normal text-white;
+}
+
+.footer-body {
+  @apply flex justify-center;
+}
+
+.footer-icons {
+  @apply flex flex-row gap-4 list-none m-0 p-0;
+}
+
+.social-icons {
+  @apply inline-block;
+}
+
+.social-link {
+  @apply text-white text-2xl transition-all duration-300 hover:scale-110 hover:opacity-80;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
