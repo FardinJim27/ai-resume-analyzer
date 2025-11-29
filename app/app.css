@@ -24,7 +24,7 @@ body {
 }
 
 main {
-  @apply min-h-screen pt-10 pb-32;
+  @apply min-h-screen pt-10 pb-16;
 }
 h1 {
   @apply text-6xl  text-gradient leading-tight tracking-[-2px] font-semibold;
@@ -153,11 +153,11 @@ form {
 
 /* Footer Styles */
 .footer {
-  @apply bg-gradient-to-b from-[#8e98ff] to-[#606beb] text-white py-8 mt-16 fixed bottom-0 left-0 right-0 z-50;
+  @apply bg-gradient-to-b from-[#8e98ff] to-[#606beb] text-white py-3 fixed bottom-0 left-0 right-0 z-50;
 }
 
 .footer-container {
-  @apply container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 items-center;
+  @apply container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-4 items-center;
 }
 
 .footer-copywright {
@@ -165,7 +165,7 @@ form {
 }
 
 .footer-copywright h3 {
-  @apply text-base md:text-lg font-normal text-white;
+  @apply text-xs md:text-sm font-normal text-white;
 }
 
 .footer-body {
@@ -173,7 +173,7 @@ form {
 }
 
 .footer-icons {
-  @apply flex flex-row gap-4 list-none m-0 p-0;
+  @apply flex flex-row gap-3 list-none m-0 p-0;
 }
 
 .social-icons {
@@ -181,7 +181,7 @@ form {
 }
 
 .social-link {
-  @apply text-white text-2xl transition-all duration-300 hover:scale-110 hover:opacity-80;
+  @apply text-white text-lg transition-all duration-300 hover:scale-110 hover:opacity-80;
   display: inline-flex;
   align-items: center;
   justify-content: center;
